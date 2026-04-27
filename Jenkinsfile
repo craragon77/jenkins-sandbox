@@ -1,8 +1,8 @@
 pipeline{
     agent any
-    environment {
-        JOBTYPE = getJobType(env.JOB_NAME)
-    }
+    // environment {
+    //     JOBTYPE = getJobType(env.JOB_NAME)
+    // }
     stages: {
         stage("build"){
             steps {
